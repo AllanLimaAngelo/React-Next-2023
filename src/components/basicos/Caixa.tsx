@@ -1,7 +1,9 @@
-export default function Caixa () {
+export default function Caixa (props: any) {
   return (
     <div className={`
-        bg-purple-500
+    flex justify-center items-center
+    bg-purple-500 p-2 m-2 rounded-md
+    w-64 h-64 text-5xl font-thin
     `}>
       Caixa
     </div>
